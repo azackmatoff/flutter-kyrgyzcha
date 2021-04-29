@@ -1,31 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:project/birinchi_tirkemem.dart';
+import 'package:project/ui/my_frist_app.dart';
 
-//Dart - strongly typed
-// text = String
-// sandar = num, int, double
-// boolean = true, false
-// video
-// surot
-// tizme = List, Set, Map
-//
-// method, functions
-// _funkciyAty(){
-// _bashkaFunkciya();
-// }
-// _bashkaFunkciya(){
-//   logic
-// }
-// HOT RELOAD
-// HOT RESTART
+//Refactor
 
 void main() {
-  runApp(MeninTirkeme());
+  runApp(MyApp());
 }
 
-class MeninTirkeme extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: BirinchiTirkemem());
+    return MaterialApp(home: MyFirstApp());
   }
 }

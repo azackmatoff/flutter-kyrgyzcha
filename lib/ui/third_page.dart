@@ -2,24 +2,24 @@
 import 'package:flutter/material.dart';
 
 //var, final, const
-class EkinchiBet2 extends StatefulWidget {
+class ThirdPage extends StatefulWidget {
   final int kelgenSan;
   final String san;
   final bool sanNol;
 
-  EkinchiBet2({this.kelgenSan, this.san, this.sanNol});
-  // EkinchiBet2({Key key}) : super(key: key);
+  ThirdPage({this.kelgenSan, this.san, this.sanNol});
+  // ThirdPage({Key key}) : super(key: key);
 
   @override
-  _EkinchiBet2State createState() => _EkinchiBet2State(kelgenSan2: kelgenSan);
+  _ThirdPageState createState() => _ThirdPageState(kelgenSan2: kelgenSan);
 }
 
-class _EkinchiBet2State extends State<EkinchiBet2> {
+class _ThirdPageState extends State<ThirdPage> {
   int kelgenSan2;
   String san2;
   bool sanNol2;
 
-  _EkinchiBet2State({this.kelgenSan2, this.san2, this.sanNol2});
+  _ThirdPageState({this.kelgenSan2, this.san2, this.sanNol2});
 
   @override
   void initState() {
